@@ -46,16 +46,21 @@ body {
     Cards
 =============*/
 
+
+User
 .card {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 .card-img-top {
-    max-height: 500px;
+    width: 100%;  /* Сликата ќе заема целосна ширина на контролата за слика */
+    
 }
 .gif-portion {
     width: 500px;
 	height: 500px;
-	display: none;
+    object-fit: cover;
+    
+
 }
 
 @media screen and (min-width: 575px) {
@@ -66,6 +71,7 @@ body {
     display: none;
     }
 }
+
 
 
 /*===========
