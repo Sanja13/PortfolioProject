@@ -58,15 +58,25 @@ User
 .gif-portion {
     width: 500px;
 	height: 500px;
+    object-fit: cover;
     display: none;
 }
+@media (min-width: 768px) {
+    .gif-portion {
+        display: block;  /* Прикажи гиф на големи екрани */
+    }
 
-@media screen and (min-width: 575px) {
+    .img-portion {
+        display: none;   /* Сокриј слика на големи екрани */
+    }
+}
+
+@media screen and (max-width: 575px) {
 .gif-portion {
-    display: block;
+    display: none;
     }
 .img-portion {
-    display: none;
+    display: block;
     }
 }
 
