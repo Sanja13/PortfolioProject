@@ -52,15 +52,13 @@ User
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 .card-img-top {
-    width: 100%;  /* Сликата ќе заема целосна ширина на контролата за слика */
+    width: 500px;
     
 }
 .gif-portion {
     width: 500px;
 	height: 500px;
-    object-fit: cover;
-    
-
+    display: none;
 }
 
 @media screen and (min-width: 575px) {
