@@ -81,7 +81,7 @@ User
 .img-portion {
     width: 500px;
     height: 500px;
-    object-fit: cover;
+    object-fit: fill;
     display: block;
     }
 }
