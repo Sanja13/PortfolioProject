@@ -56,6 +56,7 @@ User
     height: 500px;
     object-fit: cover;
     
+    
 }
 .gif-portion {
     width: 500px;
@@ -78,6 +79,9 @@ User
     display: none;
     }
 .img-portion {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
     display: block;
     }
 }
